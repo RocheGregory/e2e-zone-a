@@ -1,0 +1,60 @@
+{
+  "environmentId": "globalenvironment",
+  "environmentName": "globalenvironment",
+  "infrastructure": {
+    "properties": {
+      "dataCenterName": "E2E-Zone-A",
+      "regionName": "default",
+      "zoneName": "default",
+      "vCenterName": "",
+      "vCenterHost": "",
+      "vcUsername": "",
+      "vcPassword": "",
+      "acceptEULA": "false",
+      "enableTelemetry": "false",
+      "adminEmail": "cloudstackx@gmail.com",
+      "defaultPassword": "locker:password:26c1fff8-cecc-4f7e-a5fd-41530169d910:Administrator",
+      "certificate": "",
+      "cluster": "",
+      "storage": "",
+      "folderName": "",
+      "resourcePool": "",
+      "diskMode": "",
+      "network": "",
+      "masterVidmEnabled": "false",
+      "dns": "",
+      "domain": "",
+      "gateway": "",
+      "netmask": "",
+      "searchpath": "",
+      "timeSyncMode": "host",
+      "ntp": "",
+      "isDhcp": "false",
+      "_selectedProducts": "[{\"id\":\"vidm\",\"type\":\"import\",\"selected\":true,\"sizes\":{\"3.3.1\":[\"standard\",\"cluster\"]},\"selectedVersion\":\"3.3.1\",\"selectedDeploymentType\":\"standard\",\"description\":\"VMware Identity Manager ™ enables quickly and easily provision apps, apply conditional access controls, and enable secure single sign-on (SSO) to SaaS, web, cloud and native mobile apps using a self-service catalog.\",\"detailsHref\":\"https://docs.vmware.com/en/VMware-Identity-Manager/index.html\",\"productVersions\":[{\"version\":\"3.3.1\",\"deploymentType\":[\"standard\",\"cluster\"],\"productDeploymentMetaData\":{\"sizingURL\":null,\"productInfo\":\"VMware Identity Manager - 3.3.1\",\"deploymentType\":[\"Standard\",\"Cluster\"],\"deploymentItems\":{\"Node Count\":[\"1\",\"3\"]},\"additionalInfo\":[\"*Standard - One vIDM node will be deployed\",\"*Cluster - Three vIDM node will be deployed\"]}}]}]",
+      "_isRedeploy": "false",
+      "_isResume": "false"
+    }
+  },
+  "products": [
+    {
+      "id": "vidm",
+      "version": "3.3.1",
+      "properties": {
+        "hostName": "e2e-zaidm01.e2e.local",
+        "vidmSystemAdminPassword": "locker:password:26c1fff8-cecc-4f7e-a5fd-41530169d910:Administrator",
+        "vidmAdminPassword": "locker:password:26c1fff8-cecc-4f7e-a5fd-41530169d910:Administrator",
+        "vidmSshPassword": "locker:password:26c1fff8-cecc-4f7e-a5fd-41530169d910:Administrator",
+        "vidmRootPassword": "locker:password:26c1fff8-cecc-4f7e-a5fd-41530169d910:Administrator",
+        "isImport": "true",
+        "defaultConfigurationUsername": "administrator",
+        "defaultConfigurationPassword": "locker:password:26c1fff8-cecc-4f7e-a5fd-41530169d910:Administrator",
+        "syncGroupMembers": false,
+        "vCenterList": "[{\"vCenterHost\":\"e2e-vcenter.e2e.local\",\"vcUsername\":\"administrator@vsphere.local\",\"vcPassword\":\"locker:password:26c1fff8-cecc-4f7e-a5fd-41530169d910:Administrator\"}]"
+      },
+      "clusterVIP": {
+        "clusterVips": []
+      },
+      "nodes": []
+    }
+  ]
+}
